@@ -403,6 +403,70 @@ def build_category(
     return result
 
 
+def has_new_month(client: OnsClient, categories: list[Category], output_path: Path) -> bool:
+    if not output_path.exists():
+        logging.info("No existing output found; proceeding with the initial build")
+        return True
+
+    try:
+        existing = json.loads(output_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        logging.warning("Could not inspect existing output %s: %s; proceeding", output_path, exc)
+        return True
+
+    if not isinstance(existing, dict):
+        logging.warning("Existing output %s has an invalid format; proceeding", output_path)
+        return True
+
+    existing_categories = existing.get("categories", [])
+    dated_categories = [
+        category for category in existing_categories
+        if isinstance(category, dict) and isinstance(category.get("periodEnd"), str)
+    ] if isinstance(existing_categories, list) else []
+    latest_output_category = max(
+        dated_categories, key=lambda category: category["periodEnd"], default=None
+    )
+    metadata = existing.get("metadata")
+    metadata_end = metadata.get("periodEnd") if isinstance(metadata, dict) else None
+    previous_end = (
+        latest_output_category["periodEnd"]
+        if latest_output_category else metadata_end
+    )
+    if (
+        not isinstance(previous_end, str)
+        or not re.fullmatch(r"\d{4}-\d{2}-01", previous_end)
+        or not categories
+    ):
+        logging.warning("Could not determine the existing data's latest month; proceeding")
+        return True
+
+    probe_category = next(
+        (
+            category for category in categories
+            if latest_output_category
+            and category.category_id == latest_output_category.get("id")
+        ),
+        categories[0],
+    )
+    component = probe_category.components[0]
+    rate_dates = monthly_values(client.get(component.annual_rate_code))
+    index_dates = monthly_values(client.get(component.index_code))
+    common_dates = set(rate_dates) & set(index_dates)
+    if not common_dates:
+        raise ValueError(f"No shared monthly observations for {probe_category.name}")
+
+    latest_source_month = max(common_dates)
+    if latest_source_month <= previous_end:
+        logging.info(
+            "No new month available from ONS (latest: %s; existing: %s)",
+            latest_source_month, previous_end,
+        )
+        return False
+
+    logging.info("New ONS month available: %s (existing: %s)", latest_source_month, previous_end)
+    return True
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("config", type=Path, help="Path to categories_v3.json")
@@ -451,6 +515,9 @@ def main() -> None:
         verify=verify,
         request_delay=args.request_delay,
     )
+
+    if not has_new_month(client, categories, args.output):
+        return
 
     output_categories = []
     for index, category in enumerate(categories, 1):

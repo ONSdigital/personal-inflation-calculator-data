@@ -1,0 +1,545 @@
+{
+  "schemaVersion": 3,
+  "sourceNote": "Migrated from the Complete Series worksheet in PIC_Model_v2.xlsx. Edit this file to maintain category and ONS CDID mappings.",
+  "groups": [
+    {
+      "id": "1",
+      "name": "Groceries",
+      "categories": [
+        {
+          "id": "1.1",
+          "name": "Food, and hot and soft drinks",
+          "series": [
+            {
+              "annualRateCode": "L55P",
+              "indexCode": "L523"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "1.2",
+          "name": "Spirits, wines and beers",
+          "series": [
+            {
+              "annualRateCode": "L56I",
+              "indexCode": "L52U"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "1.3",
+          "name": "Tobacco products including electronic cigarettes",
+          "series": [
+            {
+              "annualRateCode": "L56M",
+              "indexCode": "L5KR"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "1.4",
+          "name": "Personal care including personal hygiene products, toilet rolls, toothpaste, deodorants, etc.",
+          "series": [
+            {
+              "annualRateCode": "L58Y",
+              "indexCode": "L55C"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "1.5",
+          "name": "Non-grocery items (e.g. washing-up liquid, household cleaner, bleach, foil, kitchen roll, etc.)",
+          "series": [
+            {
+              "annualRateCode": "L57G",
+              "indexCode": "L53S"
+            }
+          ],
+          "aggregation": "single"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Housing",
+      "categories": [
+        {
+          "id": "2.1",
+          "name": "Housing costs - OOH",
+          "series": [
+            {
+              "annualRateCode": "L5P7",
+              "indexCode": "L5P5",
+              "weightCode": "L5PA"
+            },
+            {
+              "annualRateCode": "L56T",
+              "indexCode": "L537",
+              "weightCode": "L5E6"
+            }
+          ],
+          "aggregation": "weighted"
+        },
+        {
+          "id": "2.2",
+          "name": "Rent",
+          "series": [
+            {
+              "annualRateCode": "L56S",
+              "indexCode": "L536"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "2.3",
+          "name": "Council Tax or rates",
+          "series": [
+            {
+              "annualRateCode": "DHYU",
+              "indexCode": "DHYR"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "2.4",
+          "name": "Electricity, gas and other fuels",
+          "series": [
+            {
+              "annualRateCode": "L56Z",
+              "indexCode": "L53D"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "2.5",
+          "name": "Water and sewerage",
+          "series": [
+            {
+              "annualRateCode": "L56W",
+              "indexCode": "L53A"
+            }
+          ],
+          "aggregation": "single"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Communication costs",
+      "categories": [
+        {
+          "id": "3.1",
+          "name": "Mobile phone charges (contract and purchase of phone, apps and accessories)",
+          "series": [
+            {
+              "annualRateCode": "J3DK",
+              "indexCode": "J2U2",
+              "weightCode": "J4LW"
+            },
+            {
+              "annualRateCode": "J3DM",
+              "indexCode": "J2U4",
+              "weightCode": "J4LZ"
+            }
+          ],
+          "aggregation": "weighted"
+        },
+        {
+          "id": "3.2",
+          "name": "Other communications costs (internet, landline telephone, packages)",
+          "series": [
+            {
+              "annualRateCode": "L585",
+              "indexCode": "L54H",
+              "weightCode": "L5FG"
+            },
+            {
+              "annualRateCode": "J3DJ",
+              "indexCode": "J2TZ",
+              "weightCode": "J4LV"
+            },
+            {
+              "annualRateCode": "J3DL",
+              "indexCode": "J2U3",
+              "weightCode": "J4LY"
+            },
+            {
+              "annualRateCode": "J3DN",
+              "indexCode": "J2U5",
+              "weightCode": "J4M2"
+            },
+            {
+              "annualRateCode": "J3DO",
+              "indexCode": "J2U6",
+              "weightCode": "J4M3"
+            }
+          ],
+          "aggregation": "weighted"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Transport",
+      "categories": [
+        {
+          "id": "4.1",
+          "name": "Purchase of vehicles (car, motorcycles or bikes)",
+          "series": [
+            {
+              "annualRateCode": "L57P",
+              "indexCode": "L543"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "4.2",
+          "name": "Petrol or diesel",
+          "series": [
+            {
+              "annualRateCode": "L57V",
+              "indexCode": "L549"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "4.3",
+          "name": "Other motoring costs including repairs, parking costs, road tolls and car or van hire",
+          "series": [
+            {
+              "annualRateCode": "L57U",
+              "indexCode": "L548",
+              "weightCode": "L5F7"
+            },
+            {
+              "annualRateCode": "L57W",
+              "indexCode": "L54A",
+              "weightCode": "L5F9"
+            },
+            {
+              "annualRateCode": "L57X",
+              "indexCode": "L54B",
+              "weightCode": "L5FA"
+            }
+          ],
+          "aggregation": "weighted"
+        },
+        {
+          "id": "4.4",
+          "name": "Train fares",
+          "series": [
+            {
+              "annualRateCode": "L57Z",
+              "indexCode": "L54D"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "4.5",
+          "name": "Bus fares",
+          "series": [
+            {
+              "annualRateCode": "L582",
+              "indexCode": "L54E"
+            }
+          ],
+          "aggregation": "single"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Leisure activities",
+      "categories": [
+        {
+          "id": "5.1",
+          "name": "Electrical items including TVs, laptops, tablet, cameras, along with CDs, DVDs, blu rays",
+          "series": [
+            {
+              "annualRateCode": "L587",
+              "indexCode": "L54J"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "5.2",
+          "name": "Television licence fees and subscriptions",
+          "series": [
+            {
+              "annualRateCode": "J3FL",
+              "indexCode": "J2V3"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "5.3",
+          "name": "Games, toys and hobbies (Including computer games and consoles)",
+          "series": [
+            {
+              "annualRateCode": "L58G",
+              "indexCode": "L54S"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "5.4",
+          "name": "Entertainment and days out (attractions, football admissions, gym membership, cinemas, concerts, etc.)",
+          "series": [
+            {
+              "annualRateCode": "L58L",
+              "indexCode": "L54X",
+              "weightCode": "J4X9"
+            },
+            {
+              "annualRateCode": "J3FJ",
+              "indexCode": "J2UZ",
+              "weightCode": "J4X9"
+            },
+            {
+              "annualRateCode": "J3FK",
+              "indexCode": "J2V2",
+              "weightCode": "J4XA"
+            },
+            {
+              "annualRateCode": "J3FM",
+              "indexCode": "J2V4",
+              "weightCode": "J4XC"
+            },
+            {
+              "annualRateCode": "J3FN",
+              "indexCode": "J2V5",
+              "weightCode": "J4XD"
+            }
+          ],
+          "aggregation": "weighted"
+        },
+        {
+          "id": "5.5",
+          "name": "Pets including food, vets fees and purchase of small pets",
+          "series": [
+            {
+              "annualRateCode": "L58J",
+              "indexCode": "L54V"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "5.6",
+          "name": "Gardening, plants and flowers",
+          "series": [
+            {
+              "annualRateCode": "L58I",
+              "indexCode": "L54U"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "5.7",
+          "name": "Eating and drinking out (pubs, restaurants, takeaways or canteens)",
+          "series": [
+            {
+              "annualRateCode": "L58S",
+              "indexCode": "L556"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "5.8",
+          "name": "Holidays (including air and sea fares and UK hotel accomodation)",
+          "series": [
+            {
+              "annualRateCode": "L583",
+              "indexCode": "L54F",
+              "weightCode": "L5FE"
+            },
+            {
+              "annualRateCode": "L584",
+              "indexCode": "L54G",
+              "weightCode": "L5FF"
+            },
+            {
+              "annualRateCode": "L58R",
+              "indexCode": "L555",
+              "weightCode": "L5G4"
+            },
+            {
+              "annualRateCode": "L58V",
+              "indexCode": "L559",
+              "weightCode": "L5G8"
+            }
+          ],
+          "aggregation": "weighted"
+        },
+        {
+          "id": "5.9",
+          "name": "Other (including books, newspapers and stationary, person effects, sports equipment and major durable items)",
+          "series": [
+            {
+              "annualRateCode": "L58D",
+              "indexCode": "L54P",
+              "weightCode": "L5FO"
+            },
+            {
+              "annualRateCode": "L58H",
+              "indexCode": "L54T",
+              "weightCode": "L5FS"
+            },
+            {
+              "annualRateCode": "L58N",
+              "indexCode": "L54Z",
+              "weightCode": "L5FY"
+            },
+            {
+              "annualRateCode": "L58Z",
+              "indexCode": "L55D",
+              "weightCode": "L5GC"
+            }
+          ],
+          "aggregation": "weighted"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Other",
+      "categories": [
+        {
+          "id": "A",
+          "name": "Health and personal care",
+          "series": [
+            {
+              "annualRateCode": "L55U",
+              "indexCode": "L528",
+              "weightCode": "L5D6"
+            },
+            {
+              "annualRateCode": "L58X",
+              "indexCode": "L55B",
+              "weightCode": "L5GA"
+            }
+          ],
+          "aggregation": "weighted"
+        },
+        {
+          "id": "B",
+          "name": "University tuition fees, private school fees and part-time leisure classes",
+          "series": [
+            {
+              "annualRateCode": "L55Y",
+              "indexCode": "L52C"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "C",
+          "name": "Social protection including childcare cost or retirement homes for elderly patients",
+          "series": [
+            {
+              "annualRateCode": "L594",
+              "indexCode": "L55G"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "D",
+          "name": "Clothes and footwear",
+          "series": [
+            {
+              "annualRateCode": "L55R",
+              "indexCode": "L525"
+            }
+          ],
+          "aggregation": "single"
+        },
+        {
+          "id": "E",
+          "name": "Furniture, furnishings, household equipment (including household appliances) and tools",
+          "series": [
+            {
+              "annualRateCode": "L576",
+              "indexCode": "L53I",
+              "weightCode": "L5EH"
+            },
+            {
+              "annualRateCode": "L579",
+              "indexCode": "L53L",
+              "weightCode": "L5EK"
+            },
+            {
+              "annualRateCode": "L57A",
+              "indexCode": "L53M",
+              "weightCode": "L5EL"
+            },
+            {
+              "annualRateCode": "L57D",
+              "indexCode": "L53P",
+              "weightCode": "L5EO"
+            },
+            {
+              "annualRateCode": "L57E",
+              "indexCode": "L53Q",
+              "weightCode": "L5EP"
+            },
+            {
+              "annualRateCode": "L57H",
+              "indexCode": "L53T",
+              "weightCode": "L5ES"
+            }
+          ],
+          "aggregation": "weighted"
+        },
+        {
+          "id": "F",
+          "name": "Insurance and financial services",
+          "series": [
+            {
+              "annualRateCode": "L595",
+              "indexCode": "L55H",
+              "weightCode": "L5GG"
+            },
+            {
+              "annualRateCode": "L599",
+              "indexCode": "L55L",
+              "weightCode": "L5GK"
+            },
+            {
+              "annualRateCode": "L59B",
+              "indexCode": "L55N",
+              "weightCode": "L5GM"
+            }
+          ],
+          "aggregation": "weighted"
+        },
+        {
+          "id": "G",
+          "name": "Other expenditure",
+          "series": [
+            {
+              "annualRateCode": "L55O",
+              "indexCode": "L522"
+            }
+          ],
+          "aggregation": "single"
+        }
+      ]
+    }
+  ]
+}

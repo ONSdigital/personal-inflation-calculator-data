@@ -22,10 +22,12 @@ C:\ONSApps\My_Python\Python_3_12\python.exe -m pip install -r requirements.txt
 From the project folder:
 
 ```powershell
-C:\ONSApps\My_Python\Python_3_12\python.exe build_pic_data.py config\categories.json data\pic_data.json
+C:\ONSApps\My_Python\Python_3_12\python.exe build_pic_data.py config\categories.json data\data.json
 ```
 
 Use `--timeout 60` if a longer request timeout is needed.
+
+GitHub Actions also checks for new data daily at 07:01 and 09:31 UTC, and commits changes to `data/data.json` automatically.
 
 ## Configuration rules
 

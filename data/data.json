@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-21T07:25:32.573132+00:00",
+    "generatedAt": "2026-11-18T07:15:23.045472+00:00",
     "source": "Office for National Statistics time-series JSON pages",
-    "periodStart": "2021-09-01",
-    "periodEnd": "2026-09-01",
+    "periodStart": "2021-10-01",
+    "periodEnd": "2026-10-01",
     "categoryCount": 33,
     "selectedIndexWeightMode": "dynamic",
     "indexFields": {
@@ -22,8 +22,8 @@
       "groupId": "1",
       "groupName": "Groceries",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L55P",
@@ -31,13 +31,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 0.8,
-          "index": 104.4,
-          "indexDynamicWeights": 104.4,
-          "indexFixedWeights": 104.4
-        },
         {
           "date": "2021-10-01",
           "annualRate": 1.3,
@@ -457,6 +450,13 @@
           "index": 144.7,
           "indexDynamicWeights": 144.7,
           "indexFixedWeights": 144.7
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 0.9,
+          "index": 144.9,
+          "indexDynamicWeights": 144.9,
+          "indexFixedWeights": 144.9
         }
       ]
     },
@@ -466,8 +466,8 @@
       "groupId": "1",
       "groupName": "Groceries",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L56I",
@@ -475,13 +475,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 2.9,
-          "index": 104.2,
-          "indexDynamicWeights": 104.2,
-          "indexFixedWeights": 104.2
-        },
         {
           "date": "2021-10-01",
           "annualRate": 1.2,
@@ -901,6 +894,13 @@
           "index": 122.7,
           "indexDynamicWeights": 122.7,
           "indexFixedWeights": 122.7
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": -1.9,
+          "index": 122.4,
+          "indexDynamicWeights": 122.4,
+          "indexFixedWeights": 122.4
         }
       ]
     },
@@ -910,8 +910,8 @@
       "groupId": "1",
       "groupName": "Groceries",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L56M",
@@ -919,13 +919,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 2.3,
-          "index": 133.6,
-          "indexDynamicWeights": 133.6,
-          "indexFixedWeights": 133.6
-        },
         {
           "date": "2021-10-01",
           "annualRate": 2.4,
@@ -1345,6 +1338,13 @@
           "index": 203.6,
           "indexDynamicWeights": 203.6,
           "indexFixedWeights": 203.6
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 12.4,
+          "index": 214.2,
+          "indexDynamicWeights": 214.2,
+          "indexFixedWeights": 214.2
         }
       ]
     },
@@ -1354,8 +1354,8 @@
       "groupId": "1",
       "groupName": "Groceries",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L58Y",
@@ -1363,13 +1363,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 0.3,
-          "index": 99.1,
-          "indexDynamicWeights": 99.1,
-          "indexFixedWeights": 99.1
-        },
         {
           "date": "2021-10-01",
           "annualRate": 2.4,
@@ -1789,6 +1782,13 @@
           "index": 121.6,
           "indexDynamicWeights": 121.6,
           "indexFixedWeights": 121.6
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 3.0,
+          "index": 121.9,
+          "indexDynamicWeights": 121.9,
+          "indexFixedWeights": 121.9
         }
       ]
     },
@@ -1798,8 +1798,8 @@
       "groupId": "1",
       "groupName": "Groceries",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L57G",
@@ -1807,13 +1807,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 0.9,
-          "index": 92.0,
-          "indexDynamicWeights": 92.0,
-          "indexFixedWeights": 92.0
-        },
         {
           "date": "2021-10-01",
           "annualRate": -1.0,
@@ -2233,6 +2226,13 @@
           "index": 120.2,
           "indexDynamicWeights": 120.2,
           "indexFixedWeights": 120.2
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 5.8,
+          "index": 121.5,
+          "indexDynamicWeights": 121.5,
+          "indexFixedWeights": 121.5
         }
       ]
     },
@@ -2242,8 +2242,8 @@
       "groupId": "2",
       "groupName": "Housing",
       "aggregation": "weighted",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L5P7",
@@ -2257,13 +2257,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 1.841711,
-          "index": 110.193583,
-          "indexDynamicWeights": 110.193583,
-          "indexFixedWeights": 110.191673
-        },
         {
           "date": "2021-10-01",
           "annualRate": 1.958824,
@@ -2683,6 +2676,13 @@
           "index": 140.262692,
           "indexDynamicWeights": 140.262692,
           "indexFixedWeights": 140.262692
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 3.96253,
+          "index": 140.848815,
+          "indexDynamicWeights": 140.848815,
+          "indexFixedWeights": 140.848815
         }
       ],
       "fixedWeightReferenceYear": 2026
@@ -2693,8 +2693,8 @@
       "groupId": "2",
       "groupName": "Housing",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L56S",
@@ -2702,13 +2702,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 1.5,
-          "index": 107.6,
-          "indexDynamicWeights": 107.6,
-          "indexFixedWeights": 107.6
-        },
         {
           "date": "2021-10-01",
           "annualRate": 1.8,
@@ -3128,6 +3121,13 @@
           "index": 139.0,
           "indexDynamicWeights": 139.0,
           "indexFixedWeights": 139.0
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 4.3,
+          "index": 139.5,
+          "indexDynamicWeights": 139.5,
+          "indexFixedWeights": 139.5
         }
       ]
     },
@@ -3137,8 +3137,8 @@
       "groupId": "2",
       "groupName": "Housing",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "DHYU",
@@ -3146,13 +3146,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 4.0,
-          "index": 127.0,
-          "indexDynamicWeights": 127.0,
-          "indexFixedWeights": 127.0
-        },
         {
           "date": "2021-10-01",
           "annualRate": 4.0,
@@ -3572,6 +3565,13 @@
           "index": 160.4,
           "indexDynamicWeights": 160.4,
           "indexFixedWeights": 160.4
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 5.1,
+          "index": 160.4,
+          "indexDynamicWeights": 160.4,
+          "indexFixedWeights": 160.4
         }
       ]
     },
@@ -3581,8 +3581,8 @@
       "groupId": "2",
       "groupName": "Housing",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L56Z",
@@ -3590,13 +3590,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 3.2,
-          "index": 111.0,
-          "indexDynamicWeights": 111.0,
-          "indexFixedWeights": 111.0
-        },
         {
           "date": "2021-10-01",
           "annualRate": 23.0,
@@ -4016,6 +4009,13 @@
           "index": 184.2,
           "indexDynamicWeights": 184.2,
           "indexFixedWeights": 184.2
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 7.8,
+          "index": 187.8,
+          "indexDynamicWeights": 187.8,
+          "indexFixedWeights": 187.8
         }
       ]
     },
@@ -4025,8 +4025,8 @@
       "groupId": "2",
       "groupName": "Housing",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L56W",
@@ -4034,13 +4034,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 1.7,
-          "index": 107.2,
-          "indexDynamicWeights": 107.2,
-          "indexFixedWeights": 107.2
-        },
         {
           "date": "2021-10-01",
           "annualRate": 1.7,
@@ -4460,6 +4453,13 @@
           "index": 176.5,
           "indexDynamicWeights": 176.5,
           "indexFixedWeights": 176.5
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 7.3,
+          "index": 176.5,
+          "indexDynamicWeights": 176.5,
+          "indexFixedWeights": 176.5
         }
       ]
     },
@@ -4469,8 +4469,8 @@
       "groupId": "3",
       "groupName": "Communication costs",
       "aggregation": "weighted",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "J3DK",
@@ -4484,13 +4484,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 0.452381,
-          "index": 105.05,
-          "indexDynamicWeights": 105.05,
-          "indexFixedWeights": 101.343146
-        },
         {
           "date": "2021-10-01",
           "annualRate": 0.204762,
@@ -4910,6 +4903,13 @@
           "index": 123.693033,
           "indexDynamicWeights": 123.693033,
           "indexFixedWeights": 123.693033
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 6.415142,
+          "index": 123.270305,
+          "indexDynamicWeights": 123.270305,
+          "indexFixedWeights": 123.270305
         }
       ],
       "fixedWeightReferenceYear": 2026
@@ -4920,8 +4920,8 @@
       "groupId": "3",
       "groupName": "Communication costs",
       "aggregation": "weighted",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L585",
@@ -4950,13 +4950,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 2.44528,
-          "index": 124.22465,
-          "indexDynamicWeights": 124.22465,
-          "indexFixedWeights": 124.520663
-        },
         {
           "date": "2021-10-01",
           "annualRate": 2.442133,
@@ -5376,6 +5369,13 @@
           "index": 166.032042,
           "indexDynamicWeights": 166.032042,
           "indexFixedWeights": 166.032042
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 5.432987,
+          "index": 166.10953,
+          "indexDynamicWeights": 166.10953,
+          "indexFixedWeights": 166.10953
         }
       ],
       "fixedWeightReferenceYear": 2026
@@ -5386,8 +5386,8 @@
       "groupId": "4",
       "groupName": "Transport",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L57P",
@@ -5395,13 +5395,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 9.6,
-          "index": 119.9,
-          "indexDynamicWeights": 119.9,
-          "indexFixedWeights": 119.9
-        },
         {
           "date": "2021-10-01",
           "annualRate": 11.1,
@@ -5821,6 +5814,13 @@
           "index": 122.5,
           "indexDynamicWeights": 122.5,
           "indexFixedWeights": 122.5
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": -2.2,
+          "index": 122.0,
+          "indexDynamicWeights": 122.0,
+          "indexFixedWeights": 122.0
         }
       ]
     },
@@ -5830,8 +5830,8 @@
       "groupId": "4",
       "groupName": "Transport",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L57V",
@@ -5839,13 +5839,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 17.8,
-          "index": 120.9,
-          "indexDynamicWeights": 120.9,
-          "indexFixedWeights": 120.9
-        },
         {
           "date": "2021-10-01",
           "annualRate": 21.5,
@@ -6265,6 +6258,13 @@
           "index": 158.7,
           "indexDynamicWeights": 158.7,
           "indexFixedWeights": 158.7
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 33.2,
+          "index": 163.9,
+          "indexDynamicWeights": 163.9,
+          "indexFixedWeights": 163.9
         }
       ]
     },
@@ -6274,8 +6274,8 @@
       "groupId": "4",
       "groupName": "Transport",
       "aggregation": "weighted",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L57U",
@@ -6294,13 +6294,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 3.313514,
-          "index": 120.062162,
-          "indexDynamicWeights": 120.062162,
-          "indexFixedWeights": 121.950227
-        },
         {
           "date": "2021-10-01",
           "annualRate": 3.194595,
@@ -6720,6 +6713,13 @@
           "index": 167.005468,
           "indexDynamicWeights": 167.005468,
           "indexFixedWeights": 167.005468
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 4.248743,
+          "index": 167.3138,
+          "indexDynamicWeights": 167.3138,
+          "indexFixedWeights": 167.3138
         }
       ],
       "fixedWeightReferenceYear": 2026
@@ -6730,8 +6730,8 @@
       "groupId": "4",
       "groupName": "Transport",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L57Z",
@@ -6739,13 +6739,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 2.1,
-          "index": 114.7,
-          "indexDynamicWeights": 114.7,
-          "indexFixedWeights": 114.7
-        },
         {
           "date": "2021-10-01",
           "annualRate": 3.2,
@@ -7165,6 +7158,13 @@
           "index": 144.8,
           "indexDynamicWeights": 144.8,
           "indexFixedWeights": 144.8
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 3.6,
+          "index": 148.5,
+          "indexDynamicWeights": 148.5,
+          "indexFixedWeights": 148.5
         }
       ]
     },
@@ -7174,8 +7174,8 @@
       "groupId": "4",
       "groupName": "Transport",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L582",
@@ -7183,13 +7183,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 1.7,
-          "index": 133.2,
-          "indexDynamicWeights": 133.2,
-          "indexFixedWeights": 133.2
-        },
         {
           "date": "2021-10-01",
           "annualRate": 4.3,
@@ -7609,6 +7602,13 @@
           "index": 173.8,
           "indexDynamicWeights": 173.8,
           "indexFixedWeights": 173.8
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 3.0,
+          "index": 174.2,
+          "indexDynamicWeights": 174.2,
+          "indexFixedWeights": 174.2
         }
       ]
     },
@@ -7618,8 +7618,8 @@
       "groupId": "5",
       "groupName": "Leisure activities",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L587",
@@ -7627,13 +7627,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 2.6,
-          "index": 96.4,
-          "indexDynamicWeights": 96.4,
-          "indexFixedWeights": 96.4
-        },
         {
           "date": "2021-10-01",
           "annualRate": 2.1,
@@ -8053,6 +8046,13 @@
           "index": 98.0,
           "indexDynamicWeights": 98.0,
           "indexFixedWeights": 98.0
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 3.5,
+          "index": 99.6,
+          "indexDynamicWeights": 99.6,
+          "indexFixedWeights": 99.6
         }
       ]
     },
@@ -8062,8 +8062,8 @@
       "groupId": "5",
       "groupName": "Leisure activities",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "J3FL",
@@ -8071,13 +8071,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 2.3,
-          "index": 117.1,
-          "indexDynamicWeights": 117.1,
-          "indexFixedWeights": 117.1
-        },
         {
           "date": "2021-10-01",
           "annualRate": 2.4,
@@ -8497,6 +8490,13 @@
           "index": 139.5,
           "indexDynamicWeights": 139.5,
           "indexFixedWeights": 139.5
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 3.7,
+          "index": 139.9,
+          "indexDynamicWeights": 139.9,
+          "indexFixedWeights": 139.9
         }
       ]
     },
@@ -8506,8 +8506,8 @@
       "groupId": "5",
       "groupName": "Leisure activities",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L58G",
@@ -8515,13 +8515,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 6.4,
-          "index": 105.5,
-          "indexDynamicWeights": 105.5,
-          "indexFixedWeights": 105.5
-        },
         {
           "date": "2021-10-01",
           "annualRate": 3.8,
@@ -8941,6 +8934,13 @@
           "index": 110.0,
           "indexDynamicWeights": 110.0,
           "indexFixedWeights": 110.0
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 0.6,
+          "index": 111.9,
+          "indexDynamicWeights": 111.9,
+          "indexFixedWeights": 111.9
         }
       ]
     },
@@ -8950,8 +8950,8 @@
       "groupId": "5",
       "groupName": "Leisure activities",
       "aggregation": "weighted",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L58L",
@@ -8980,13 +8980,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 4.259574,
-          "index": 122.224468,
-          "indexDynamicWeights": 122.224468,
-          "indexFixedWeights": 122.134526
-        },
         {
           "date": "2021-10-01",
           "annualRate": 3.893617,
@@ -9406,6 +9399,13 @@
           "index": 157.386067,
           "indexDynamicWeights": 157.386067,
           "indexFixedWeights": 157.386067
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 5.76936,
+          "index": 157.315155,
+          "indexDynamicWeights": 157.315155,
+          "indexFixedWeights": 157.315155
         }
       ],
       "fixedWeightReferenceYear": 2026
@@ -9416,8 +9416,8 @@
       "groupId": "5",
       "groupName": "Leisure activities",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L58J",
@@ -9425,13 +9425,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 2.4,
-          "index": 111.3,
-          "indexDynamicWeights": 111.3,
-          "indexFixedWeights": 111.3
-        },
         {
           "date": "2021-10-01",
           "annualRate": 3.1,
@@ -9851,6 +9844,13 @@
           "index": 152.7,
           "indexDynamicWeights": 152.7,
           "indexFixedWeights": 152.7
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 5.0,
+          "index": 154.1,
+          "indexDynamicWeights": 154.1,
+          "indexFixedWeights": 154.1
         }
       ]
     },
@@ -9860,8 +9860,8 @@
       "groupId": "5",
       "groupName": "Leisure activities",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L58I",
@@ -9869,13 +9869,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 4.9,
-          "index": 110.1,
-          "indexDynamicWeights": 110.1,
-          "indexFixedWeights": 110.1
-        },
         {
           "date": "2021-10-01",
           "annualRate": 3.9,
@@ -10295,6 +10288,13 @@
           "index": 127.2,
           "indexDynamicWeights": 127.2,
           "indexFixedWeights": 127.2
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 0.8,
+          "index": 128.7,
+          "indexDynamicWeights": 128.7,
+          "indexFixedWeights": 128.7
         }
       ]
     },
@@ -10304,8 +10304,8 @@
       "groupId": "5",
       "groupName": "Leisure activities",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L58S",
@@ -10313,13 +10313,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 3.9,
-          "index": 116.9,
-          "indexDynamicWeights": 116.9,
-          "indexFixedWeights": 116.9
-        },
         {
           "date": "2021-10-01",
           "annualRate": 4.9,
@@ -10739,6 +10732,13 @@
           "index": 156.4,
           "indexDynamicWeights": 156.4,
           "indexFixedWeights": 156.4
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 4.1,
+          "index": 156.8,
+          "indexDynamicWeights": 156.8,
+          "indexFixedWeights": 156.8
         }
       ]
     },
@@ -10748,8 +10748,8 @@
       "groupId": "5",
       "groupName": "Leisure activities",
       "aggregation": "weighted",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L583",
@@ -10773,13 +10773,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 6.591667,
-          "index": 119.5375,
-          "indexDynamicWeights": 119.5375,
-          "indexFixedWeights": 118.913974
-        },
         {
           "date": "2021-10-01",
           "annualRate": 8.758333,
@@ -11199,6 +11192,13 @@
           "index": 162.557222,
           "indexDynamicWeights": 162.557222,
           "indexFixedWeights": 162.557222
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 1.306422,
+          "index": 161.000547,
+          "indexDynamicWeights": 161.000547,
+          "indexFixedWeights": 161.000547
         }
       ],
       "fixedWeightReferenceYear": 2026
@@ -11209,8 +11209,8 @@
       "groupId": "5",
       "groupName": "Leisure activities",
       "aggregation": "weighted",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L58D",
@@ -11234,13 +11234,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 2.4,
-          "index": 115.134211,
-          "indexDynamicWeights": 115.134211,
-          "indexFixedWeights": 114.454752
-        },
         {
           "date": "2021-10-01",
           "annualRate": 2.536842,
@@ -11660,6 +11653,13 @@
           "index": 136.274096,
           "indexDynamicWeights": 136.274096,
           "indexFixedWeights": 136.274096
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 1.772473,
+          "index": 136.305682,
+          "indexDynamicWeights": 136.305682,
+          "indexFixedWeights": 136.305682
         }
       ],
       "fixedWeightReferenceYear": 2026
@@ -11670,8 +11670,8 @@
       "groupId": "6",
       "groupName": "Other",
       "aggregation": "weighted",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L55U",
@@ -11685,13 +11685,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 1.8,
-          "index": 115.666667,
-          "indexDynamicWeights": 115.666667,
-          "indexFixedWeights": 115.979843
-        },
         {
           "date": "2021-10-01",
           "annualRate": 1.683333,
@@ -12111,6 +12104,13 @@
           "index": 146.406736,
           "indexDynamicWeights": 146.406736,
           "indexFixedWeights": 146.406736
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 3.758825,
+          "index": 146.397493,
+          "indexDynamicWeights": 146.397493,
+          "indexFixedWeights": 146.397493
         }
       ],
       "fixedWeightReferenceYear": 2026
@@ -12121,8 +12121,8 @@
       "groupId": "6",
       "groupName": "Other",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L55Y",
@@ -12130,13 +12130,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 2.9,
-          "index": 121.3,
-          "indexDynamicWeights": 121.3,
-          "indexFixedWeights": 121.3
-        },
         {
           "date": "2021-10-01",
           "annualRate": 4.5,
@@ -12556,6 +12549,13 @@
           "index": 154.8,
           "indexDynamicWeights": 154.8,
           "indexFixedWeights": 154.8
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 3.9,
+          "index": 158.6,
+          "indexDynamicWeights": 158.6,
+          "indexFixedWeights": 158.6
         }
       ]
     },
@@ -12565,8 +12565,8 @@
       "groupId": "6",
       "groupName": "Other",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L594",
@@ -12574,13 +12574,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 3.9,
-          "index": 122.6,
-          "indexDynamicWeights": 122.6,
-          "indexFixedWeights": 122.6
-        },
         {
           "date": "2021-10-01",
           "annualRate": 4.1,
@@ -13000,6 +12993,13 @@
           "index": 154.6,
           "indexDynamicWeights": 154.6,
           "indexFixedWeights": 154.6
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 4.2,
+          "index": 155.2,
+          "indexDynamicWeights": 155.2,
+          "indexFixedWeights": 155.2
         }
       ]
     },
@@ -13009,8 +13009,8 @@
       "groupId": "6",
       "groupName": "Other",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L55R",
@@ -13018,13 +13018,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 0.6,
-          "index": 103.1,
-          "indexDynamicWeights": 103.1,
-          "indexFixedWeights": 103.1
-        },
         {
           "date": "2021-10-01",
           "annualRate": -0.3,
@@ -13444,6 +13437,13 @@
           "index": 121.1,
           "indexDynamicWeights": 121.1,
           "indexFixedWeights": 121.1
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": -0.5,
+          "index": 121.6,
+          "indexDynamicWeights": 121.6,
+          "indexFixedWeights": 121.6
         }
       ]
     },
@@ -13453,8 +13453,8 @@
       "groupId": "6",
       "groupName": "Other",
       "aggregation": "weighted",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L576",
@@ -13488,13 +13488,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 4.828261,
-          "index": 111.784783,
-          "indexDynamicWeights": 111.784783,
-          "indexFixedWeights": 112.174473
-        },
         {
           "date": "2021-10-01",
           "annualRate": 6.195652,
@@ -13914,6 +13907,13 @@
           "index": 127.404066,
           "indexDynamicWeights": 127.404066,
           "indexFixedWeights": 127.404066
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 0.556233,
+          "index": 127.937339,
+          "indexDynamicWeights": 127.937339,
+          "indexFixedWeights": 127.937339
         }
       ],
       "fixedWeightReferenceYear": 2026
@@ -13924,8 +13924,8 @@
       "groupId": "6",
       "groupName": "Other",
       "aggregation": "weighted",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L595",
@@ -13944,13 +13944,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": -0.866667,
-          "index": 100.46,
-          "indexDynamicWeights": 100.46,
-          "indexFixedWeights": 99.38326
-        },
         {
           "date": "2021-10-01",
           "annualRate": -1.373333,
@@ -14370,6 +14363,13 @@
           "index": 117.398447,
           "indexDynamicWeights": 117.398447,
           "indexFixedWeights": 117.398447
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 2.617262,
+          "index": 118.036527,
+          "indexDynamicWeights": 118.036527,
+          "indexFixedWeights": 118.036527
         }
       ],
       "fixedWeightReferenceYear": 2026
@@ -14380,8 +14380,8 @@
       "groupId": "6",
       "groupName": "Other",
       "aggregation": "single",
-      "periodStart": "2021-09-01",
-      "periodEnd": "2026-09-01",
+      "periodStart": "2021-10-01",
+      "periodEnd": "2026-10-01",
       "components": [
         {
           "annualRateCode": "L55O",
@@ -14389,13 +14389,6 @@
         }
       ],
       "data": [
-        {
-          "date": "2021-09-01",
-          "annualRate": 2.9,
-          "index": 112.4,
-          "indexDynamicWeights": 112.4,
-          "indexFixedWeights": 112.4
-        },
         {
           "date": "2021-10-01",
           "annualRate": 3.8,
@@ -14815,6 +14808,13 @@
           "index": 144.0,
           "indexDynamicWeights": 144.0,
           "indexFixedWeights": 144.0
+        },
+        {
+          "date": "2026-10-01",
+          "annualRate": 3.7,
+          "index": 144.6,
+          "indexDynamicWeights": 144.6,
+          "indexFixedWeights": 144.6
         }
       ]
     }
